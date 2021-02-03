@@ -13,9 +13,6 @@ public class Mail {
     private static String RECIPIENT = MailGUI.recipient.getText();
 
 
-
-
-
     public Mail (String getUserName,  String getRecipient,  String getPassword, String getBody, String getYear, String getMonth, String getDay, String getHour, String getMinute)
     {
         System.out.println(RECIPIENT);
